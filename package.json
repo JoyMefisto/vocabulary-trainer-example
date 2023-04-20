@@ -1,0 +1,27 @@
+{
+  "name": "test-fd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "serve": "webpack serve",
+    "build": "webpack",
+    "prettier-fix": "npx prettier --write .",
+    "prettier-check": "npx prettier --check ."
+  },
+  "author": "Artem Shanin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/webpack": "^5.28.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "prettier": "2.8.7",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.3"
+  }
+}
